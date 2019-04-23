@@ -270,10 +270,6 @@ TS-003</description>
 <wire x1="5.08" y1="-22.86" x2="7.62" y2="-22.86" width="0.2032" layer="51"/>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="-20.32" width="0.2032" layer="51"/>
 <wire x1="7.62" y1="-20.32" x2="5.08" y2="-20.32" width="0.2032" layer="51"/>
-<hole x="-10.16" y="21.59" drill="3.2"/>
-<hole x="10.16" y="21.59" drill="3.2"/>
-<hole x="10.16" y="-21.59" drill="3.2"/>
-<hole x="-10.16" y="-21.59" drill="3.2"/>
 <text x="-10.16" y="17.78" size="0.8128" layer="51">AD0</text>
 <text x="-10.16" y="15.24" size="0.8128" layer="51">RSV</text>
 <text x="-10.16" y="12.7" size="0.8128" layer="51">RSV</text>
