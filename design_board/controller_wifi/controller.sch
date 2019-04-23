@@ -270,162 +270,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="con-tycoelectronics">
-<description>&lt;b&gt;Tyco Electronics Connector&lt;/b&gt;&lt;p&gt;
-http://catalog.tycoelectronics.com&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="RJ11-NO_SHIELD">
-<description>&lt;b&gt;RJ11 Low Profile&lt;/b&gt; No Shield&lt;/b&gt;&lt;p&gt;
-For all RJ11 N and Z Series Models&lt;br&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<wire x1="-6.877" y1="10.819" x2="6.877" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="7.8105" y1="-5.51" x2="-7.8105" y2="-5.51" width="0.01" layer="20"/>
-<wire x1="6.877" y1="-7.782" x2="-6.877" y2="-7.782" width="0.2032" layer="21"/>
-<wire x1="-6.877" y1="-7.782" x2="-6.877" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="6.877" y1="10.819" x2="6.877" y2="-7.782" width="0.2032" layer="21"/>
-<pad name="4" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="3" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="2" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="5" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="1" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="6" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
-<text x="-7.62" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="6.95" y1="-5.485" x2="7.875" y2="-4.342" layer="21"/>
-<rectangle x1="-7.875" y1="-5.485" x2="-6.95" y2="-4.342" layer="21"/>
-<hole x="-5.08" y="0" drill="3.2512"/>
-<hole x="5.08" y="0" drill="3.2512"/>
-</package>
-</packages>
-<symbols>
-<symbol name="JACK6">
-<wire x1="1.524" y1="5.588" x2="0" y2="5.588" width="0.254" layer="94"/>
-<wire x1="0" y1="5.588" x2="0" y2="4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="4.572" x2="1.524" y2="4.572" width="0.254" layer="94"/>
-<wire x1="1.524" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
-<wire x1="0" y1="3.048" x2="0" y2="2.032" width="0.254" layer="94"/>
-<wire x1="0" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.508" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.032" x2="0" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.032" x2="0" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.048" x2="1.524" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-4.572" x2="0" y2="-4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.588" x2="1.524" y2="-5.588" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-7.112" x2="0" y2="-7.112" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.112" x2="0" y2="-8.128" width="0.254" layer="94"/>
-<wire x1="0" y1="-8.128" x2="1.524" y2="-8.128" width="0.254" layer="94"/>
-<wire x1="4.318" y1="-3.556" x2="6.858" y2="-3.556" width="0.1998" layer="94"/>
-<wire x1="6.858" y1="-3.556" x2="6.858" y2="-2.286" width="0.1998" layer="94"/>
-<wire x1="6.858" y1="-2.286" x2="7.874" y2="-2.286" width="0.1998" layer="94"/>
-<wire x1="7.874" y1="-2.286" x2="7.874" y2="-0.254" width="0.1998" layer="94"/>
-<wire x1="7.874" y1="-0.254" x2="6.858" y2="-0.254" width="0.1998" layer="94"/>
-<wire x1="6.858" y1="-0.254" x2="6.858" y2="1.016" width="0.1998" layer="94"/>
-<wire x1="6.858" y1="1.016" x2="4.318" y2="1.016" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="1.016" x2="4.318" y2="0" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="0" x2="4.318" y2="-0.508" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-0.508" x2="4.318" y2="-1.016" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-1.016" x2="4.318" y2="-1.524" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-1.524" x2="4.318" y2="-2.032" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-2.032" x2="4.318" y2="-2.54" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-2.54" x2="4.318" y2="-3.556" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="0" x2="5.08" y2="0" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-0.508" x2="5.08" y2="-0.508" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-1.016" x2="5.08" y2="-1.016" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-1.524" x2="5.08" y2="-1.524" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-2.032" x2="5.08" y2="-2.032" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-2.54" x2="5.08" y2="-2.54" width="0.1998" layer="94"/>
-<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-10.668" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="-2.54" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="3" x="-2.54" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="4" x="-2.54" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="5" x="-2.54" y="-5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="6" x="-2.54" y="-7.62" visible="pin" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RJ11" prefix="J">
-<description>&lt;b&gt;CORCOM Modular RJ Jacks&lt;/b&gt; No Shield&lt;p&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<gates>
-<gate name="G$1" symbol="JACK6" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RJ11-NO_SHIELD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name="-2L-B">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ11-2L-B" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="83F4463" constant="no"/>
-</technology>
-<technology name="-2L-S">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ11-2L-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="73K3294" constant="no"/>
-</technology>
-<technology name="-2X">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="-4L-B">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ11-4L-B" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="52K3315" constant="no"/>
-</technology>
-<technology name="-4L-S">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ11-4L-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="69K7126" constant="no"/>
-</technology>
-<technology name="-4X">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="6609214-3" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="19R7022" constant="no"/>
-</technology>
-<technology name="-6L-B">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ11-6L-B" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="52K3613" constant="no"/>
-</technology>
-<technology name="-6L-S">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ11-6L-S" constant="no"/>
-<attribute name="OC_FARNELL" value="1654827" constant="no"/>
-<attribute name="OC_NEWARK" value="50F1358" constant="no"/>
-</technology>
-<technology name="-6X">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ11-6X" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="16R6089" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -10989,6 +10833,80 @@ high speed (Philips)</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-rj-11-6P6">
+<description>&lt;B&gt;RJ conectors&lt;/B&gt;
+&lt;P&gt;phone and ethernet conectors from
+http://www.tycoelectronics.com</description>
+<packages>
+<package name="RJ11">
+<description>&lt;B&gt;RJ11, RJ22&lt;/B&gt;
+&lt;P&gt;RJ11 and RJ22 jacks side mounted
+http://www.tycoelectronics.com</description>
+<wire x1="3.175" y1="4.445" x2="3.175" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-7.62" x2="2.54" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-7.62" x2="-8.763" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-8.763" y1="-7.62" x2="-8.763" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-8.763" y1="4.445" x2="2.54" y2="4.445" width="0.127" layer="21"/>
+<wire x1="2.54" y1="4.445" x2="3.175" y2="4.445" width="0.127" layer="21"/>
+<wire x1="2.54" y1="4.445" x2="2.54" y2="-7.62" width="0.127" layer="21"/>
+<pad name="1" x="-6.35" y="0.8255" drill="0.8"/>
+<pad name="3" x="-6.35" y="-1.0795" drill="0.8"/>
+<pad name="4" x="-3.81" y="-2.032" drill="0.8"/>
+<pad name="2" x="-3.81" y="-0.127" drill="0.8"/>
+<text x="-7.62" y="8.128" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.62" y="6.35" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-1.27" y="-7.493" drill="2.286"/>
+<hole x="-1.27" y="4.445" drill="2.286"/>
+<pad name="5" x="-6.35" y="-2.921" drill="0.8"/>
+<pad name="6" x="-3.81" y="-3.937" drill="0.8"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RJ11">
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="4" x="-10.16" y="0" length="middle"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="2" x="-10.16" y="-5.08" length="middle"/>
+<pin name="1" x="-10.16" y="-7.62" length="middle"/>
+<pin name="5" x="-10.16" y="2.54" length="middle"/>
+<pin name="6" x="-10.16" y="5.08" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RJ11" prefix="J">
+<description>&lt;B&gt;RJ11, RJ22&lt;/B&gt;
+&lt;P&gt;RJ11 and RJ22 jacks side mounted
+http://www.tycoelectronics.com</description>
+<gates>
+<gate name="G$1" symbol="RJ11" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RJ11">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11016,7 +10934,6 @@ high speed (Philips)</description>
 <part name="R3" library="resistor" deviceset="R-EU_" device="0204/5"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="0204/5"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="0204/5"/>
-<part name="SPI/I2C" library="con-tycoelectronics" deviceset="RJ11" device="" technology="-6X"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -11028,7 +10945,6 @@ high speed (Philips)</description>
 <part name="X1" library="con-wago-500" deviceset="W237-4" device=""/>
 <part name="X2" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="X3" library="con-wago-500" deviceset="W237-103" device=""/>
-<part name="SERIAL/D7D8" library="con-tycoelectronics" deviceset="RJ11" device="" technology="-6X"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="X4" library="con-wago-500" deviceset="W237-103" device=""/>
@@ -11101,6 +11017,8 @@ high speed (Philips)</description>
 <part name="P+14" library="supply1" deviceset="+12V" device=""/>
 <part name="C4" library="resistor" deviceset="CPOL-EU" device="E2.5-5"/>
 <part name="P+13" library="supply1" deviceset="VCC/2" device=""/>
+<part name="SERIAL" library="con-rj-11-6P6" deviceset="RJ11" device=""/>
+<part name="SPI/I2C" library="con-rj-11-6P6" deviceset="RJ11" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11124,7 +11042,6 @@ high speed (Philips)</description>
 <instance part="R3" gate="G$1" x="66.04" y="22.86" rot="R270"/>
 <instance part="R4" gate="G$1" x="50.8" y="22.86" rot="R270"/>
 <instance part="R5" gate="G$1" x="35.56" y="22.86" rot="R270"/>
-<instance part="SPI/I2C" gate="G$1" x="119.38" y="-66.04" rot="R270"/>
 <instance part="GND2" gate="1" x="99.06" y="-68.58"/>
 <instance part="P+3" gate="1" x="175.26" y="55.88"/>
 <instance part="GND3" gate="1" x="175.26" y="27.94"/>
@@ -11142,7 +11059,6 @@ high speed (Philips)</description>
 <instance part="X3" gate="-1" x="63.5" y="83.82" rot="R270"/>
 <instance part="X3" gate="-2" x="83.82" y="83.82" rot="R270"/>
 <instance part="X3" gate="-3" x="78.74" y="83.82" rot="R270"/>
-<instance part="SERIAL/D7D8" gate="G$1" x="81.28" y="-66.04" rot="R270"/>
 <instance part="P+7" gate="1" x="101.6" y="-50.8"/>
 <instance part="P+8" gate="1" x="-11.26" y="-38.2"/>
 <instance part="X4" gate="-1" x="175.26" y="-68.58" rot="R90"/>
@@ -11191,6 +11107,8 @@ high speed (Philips)</description>
 <instance part="R8" gate="G$1" x="73.66" y="73.66" rot="R90"/>
 <instance part="R9" gate="G$1" x="78.74" y="73.66" rot="R90"/>
 <instance part="R10" gate="G$1" x="83.82" y="73.66" rot="R90"/>
+<instance part="SERIAL" gate="G$1" x="81.28" y="-73.66" rot="R270"/>
+<instance part="SPI/I2C" gate="G$1" x="119.38" y="-73.66" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -11248,15 +11166,15 @@ high speed (Philips)</description>
 <junction x="167.64" y="33.02"/>
 </segment>
 <segment>
-<pinref part="SPI/I2C" gate="G$1" pin="6"/>
 <wire x1="111.76" y1="-63.5" x2="111.76" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="SERIAL/D7D8" gate="G$1" pin="6"/>
 <wire x1="73.66" y1="-63.5" x2="73.66" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-58.42" x2="99.06" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="99.06" y1="-58.42" x2="111.76" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-66.04" x2="99.06" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="99.06" y="-58.42"/>
+<pinref part="SPI/I2C" gate="G$1" pin="1"/>
+<pinref part="SERIAL" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -11339,15 +11257,15 @@ high speed (Philips)</description>
 <wire x1="167.64" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SPI/I2C" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="-60.96" x2="124.46" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="SERIAL/D7D8" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="-63.5" x2="86.36" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-60.96" x2="101.6" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <wire x1="101.6" y1="-60.96" x2="124.46" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-53.34" x2="101.6" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="101.6" y="-60.96"/>
+<pinref part="SPI/I2C" gate="G$1" pin="6"/>
+<pinref part="SERIAL" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11549,10 +11467,8 @@ high speed (Philips)</description>
 <pinref part="NODE_MCU_V1.0" gate="G$1" pin="D7"/>
 <wire x1="29.64" y1="-21.7" x2="53.34" y2="-21.7" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-21.7" x2="53.34" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="SPI/I2C" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="-35.56" x2="78.74" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-35.56" x2="116.84" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="-35.56" x2="116.84" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="2A"/>
 <wire x1="137.16" y1="17.78" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="17.78" x2="116.84" y2="-35.56" width="0.1524" layer="91"/>
@@ -11563,9 +11479,13 @@ high speed (Philips)</description>
 <pinref part="PAD28" gate="G$1" pin="P"/>
 <wire x1="144.78" y1="-45.72" x2="144.78" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="144.78" y="-35.56"/>
-<pinref part="SERIAL/D7D8" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="-63.5" x2="78.74" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="-35.56"/>
+<pinref part="SERIAL" gate="G$1" pin="3"/>
+<wire x1="116.84" y1="-35.56" x2="116.84" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="SPI/I2C" gate="G$1" pin="4"/>
+<wire x1="116.84" y1="-45.72" x2="119.38" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-45.72" x2="119.38" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -11573,7 +11493,6 @@ high speed (Philips)</description>
 <pinref part="NODE_MCU_V1.0" gate="G$1" pin="D8"/>
 <wire x1="29.64" y1="-24.24" x2="50.8" y2="-24.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-24.24" x2="50.8" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="SPI/I2C" gate="G$1" pin="5"/>
 <wire x1="50.8" y1="-38.1" x2="76.2" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-38.1" x2="114.3" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-38.1" x2="114.3" y2="-63.5" width="0.1524" layer="91"/>
@@ -11589,9 +11508,10 @@ high speed (Philips)</description>
 <pinref part="PAD29" gate="G$1" pin="P"/>
 <wire x1="152.4" y1="-45.72" x2="152.4" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="152.4" y="-38.1"/>
-<pinref part="SERIAL/D7D8" gate="G$1" pin="5"/>
 <wire x1="76.2" y1="-63.5" x2="76.2" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="76.2" y="-38.1"/>
+<pinref part="SPI/I2C" gate="G$1" pin="2"/>
+<pinref part="SERIAL" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -11599,17 +11519,17 @@ high speed (Philips)</description>
 <pinref part="NODE_MCU_V1.0" gate="G$1" pin="RX"/>
 <wire x1="29.64" y1="-26.78" x2="48.26" y2="-26.78" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="-26.78" x2="48.26" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-48.26" x2="83.82" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="PAD22" gate="G$1" pin="P"/>
-<wire x1="48.26" y1="-48.26" x2="48.26" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="48.26" y="-48.26"/>
 <pinref part="PAD31" gate="G$1" pin="P"/>
+<wire x1="48.26" y1="-48.26" x2="48.26" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="-63.5" x2="48.26" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-66.04" x2="53.34" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-63.5" x2="48.26" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="48.26" y="-63.5"/>
-<pinref part="SERIAL/D7D8" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="-48.26" x2="83.82" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="SERIAL" gate="G$1" pin="4"/>
+<wire x1="81.28" y1="-63.5" x2="81.28" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-48.26" x2="48.26" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="48.26" y="-48.26"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -11617,7 +11537,7 @@ high speed (Philips)</description>
 <pinref part="NODE_MCU_V1.0" gate="G$1" pin="TX"/>
 <wire x1="29.64" y1="-29.32" x2="45.72" y2="-29.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-29.32" x2="45.72" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-50.8" x2="81.28" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-50.8" x2="83.82" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="PAD21" gate="G$1" pin="P"/>
 <wire x1="45.72" y1="-50.8" x2="45.72" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="45.72" y="-50.8"/>
@@ -11626,8 +11546,8 @@ high speed (Philips)</description>
 <wire x1="40.64" y1="-60.96" x2="40.64" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-58.42" x2="45.72" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="45.72" y="-58.42"/>
-<pinref part="SERIAL/D7D8" gate="G$1" pin="3"/>
-<wire x1="81.28" y1="-50.8" x2="81.28" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="SERIAL" gate="G$1" pin="5"/>
+<wire x1="83.82" y1="-50.8" x2="83.82" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -11650,9 +11570,7 @@ high speed (Philips)</description>
 <pinref part="NODE_MCU_V1.0" gate="G$1" pin="D6"/>
 <wire x1="29.64" y1="-19.16" x2="55.88" y2="-19.16" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-19.16" x2="55.88" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="SPI/I2C" gate="G$1" pin="3"/>
 <wire x1="55.88" y1="-33.02" x2="119.38" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="-33.02" x2="119.38" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="12.7" x2="119.38" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="119.38" y="-33.02"/>
 <pinref part="IC1" gate="G$1" pin="1A"/>
@@ -11665,6 +11583,12 @@ high speed (Philips)</description>
 <pinref part="PAD27" gate="G$1" pin="P"/>
 <wire x1="137.16" y1="-45.72" x2="137.16" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="137.16" y="-33.02"/>
+<pinref part="SPI/I2C" gate="G$1" pin="3"/>
+<wire x1="116.84" y1="-63.5" x2="116.84" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-50.8" x2="111.76" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-50.8" x2="111.76" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-43.18" x2="119.38" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-43.18" x2="119.38" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -11672,7 +11596,6 @@ high speed (Philips)</description>
 <pinref part="IC1" gate="G$1" pin="4A"/>
 <wire x1="167.64" y1="43.18" x2="180.34" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="43.18" x2="180.34" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="SPI/I2C" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="-63.5" x2="121.92" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="NODE_MCU_V1.0" gate="G$1" pin="D5"/>
 <wire x1="29.64" y1="-16.62" x2="58.42" y2="-16.62" width="0.1524" layer="91"/>
@@ -11687,6 +11610,7 @@ high speed (Philips)</description>
 <pinref part="PAD26" gate="G$1" pin="P"/>
 <wire x1="129.54" y1="-45.72" x2="129.54" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="129.54" y="-30.48"/>
+<pinref part="SPI/I2C" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$12" class="0">
