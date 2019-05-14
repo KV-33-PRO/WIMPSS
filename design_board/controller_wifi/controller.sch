@@ -10925,11 +10925,11 @@ http://www.tycoelectronics.com</description>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0204/5"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0204/5"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0204/5"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0204/5"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="0204/5"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0204/5" value="4,7 kOm"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0204/5" value="4,7 kOm"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0204/5" value="4,7 kOm"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0204/5" value="4,7 kOm"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="0204/5" value="4,7 kOm"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -10999,11 +10999,11 @@ http://www.tycoelectronics.com</description>
 <part name="PAD30" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
 <part name="PAD31" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
 <part name="PAD32" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="0204/2V"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="0204/2V"/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="0204/2V"/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="0204/2V"/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="0204/2V"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="0204/2V" value="1 kOm"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="0204/2V" value="1 kOm"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="0204/2V" value="1 kOm"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="0204/2V" value="1 kOm"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="0204/2V" value="1 kOm"/>
 <part name="C1" library="resistor" deviceset="CPOL-EU" device="E2.5-5"/>
 <part name="C2" library="resistor" deviceset="CPOL-EU" device="E2.5-5"/>
 <part name="C3" library="resistor" deviceset="CPOL-EU" device="E2.5-5"/>
